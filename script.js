@@ -68,7 +68,7 @@ function addData(obj) {
 // Update DOM
 function updateDOM(providedData = data) {
   // Clear main div
-  main.innerHTML = '<h2><strong>Person</strong> Wealth</h2>';
+  main.innerHTML = '<h2><strong>User</strong> Money</h2>';
 
   providedData.forEach(item => {
     const element = document.createElement('div');
